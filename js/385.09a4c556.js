@@ -1,2 +1,2 @@
 "use strict";(self["webpackChunkshoping_cart"]=self["webpackChunkshoping_cart"]||[]).push([[385],{6385:function(n,r,a){a.r(r),a.d(r,{default:function(){return p}});var t=a(3396);const e=n=>((0,t.dD)("data-v-0118e2b4"),n=n(),(0,t.Cn)(),n),u={class:"container"},c=e((()=>(0,t._)("br",null,null,-1))),o=e((()=>(0,t._)("h1",null,"404 Error 😔",-1)));function s(n,r,a,e,s,l){const i=(0,t.up)("router-link");return(0,t.wg)(),(0,t.iD)("div",u,[(0,t.Wm)(i,{to:"/",class:"nav-link","aria-current":"page"},{default:(0,t.w5)((()=>[(0,t.Uk)("Shoping - Cart")])),_:1}),c,o])}var l={name:"PageNotFound"},i=a(89);const d=(0,i.Z)(l,[["render",s],["__scopeId","data-v-0118e2b4"]]);var p=d}}]);
-//# sourceMappingURL=385.315383a2.js.map
+//# sourceMappingURL=385.09a4c556.js.map
