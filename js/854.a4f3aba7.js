@@ -1475,4 +1475,4 @@ class Ki{constructor(e){this.auth=e,this.internalListeners=new Map}getUid(){var 
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */const Bi=300,Xi=(0,i.Pz)("authIdTokenMaxAge")||Bi;let Yi=null;const Zi=e=>async t=>{const n=t&&await t.getIdTokenResult(),i=n&&((new Date).getTime()-Date.parse(n.issuedAtTime))/1e3;if(i&&i>Xi)return;const r=null===n||void 0===n?void 0:n.token;Yi!==r&&(Yi=r,await fetch(e,{method:r?"POST":"DELETE",headers:r?{Authorization:`Bearer ${r}`}:{}}))};function Qi(e=(0,r.Mq)()){const t=(0,r.qX)(e,"auth");if(t.isInitialized())return t.getImmediate();const n=T(e,{popupRedirectResolver:Ui,persistence:[un,Mt,xt]}),s=(0,i.Pz)("authTokenSyncURL");if(s){const e=Zi(s);Tt(n,e,(()=>e(n.currentUser))),kt(n,(t=>e(t)))}const o=(0,i.q4)("auth");return o&&Pe(n,`http://${o}`),n}Ji("Browser")}}]);
-//# sourceMappingURL=854.7ea51862.js.map
+//# sourceMappingURL=854.a4f3aba7.js.map
